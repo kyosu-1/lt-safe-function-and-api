@@ -64,7 +64,7 @@ def double_elements2(a: list[int]) -> list[int]:
 * double_elements1は入力であるリストの状態を変更しないので副作用のない関数
 * double_elements1は入力であるリストの状態を変更してしまうので副作用のある関数
 * 副作用のある関数は参照透過でない場合が多い
-    * increment2()は副作用があってかつ参照透過でない
+    * increment2は副作用があってかつ参照透過でない
 
 ---
 
