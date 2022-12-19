@@ -42,7 +42,7 @@ def increment2() -> int:
 
 ```python=
 def double_elements1(a: list[int]) -> list[int]:
-    return [i**2 for i in a]
+    return [i*2 for i in a]
 
 
 def double_elements2(a: list[int]) -> list[int]:
